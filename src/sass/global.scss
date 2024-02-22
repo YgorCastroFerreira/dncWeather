@@ -1,0 +1,10 @@
+$blue: #0C70F2;
+$font: 'Poppins', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

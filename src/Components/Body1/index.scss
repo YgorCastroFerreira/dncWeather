@@ -1,0 +1,18 @@
+@use '../../sass/global' as *;
+
+.body1{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 15vh;
+    justify-content: center;
+    margin-top: 70px;
+
+    h1{
+        color:black;
+        font-family: $font;
+    }
+
+    img{
+        width: 30vh;
+    }
+}

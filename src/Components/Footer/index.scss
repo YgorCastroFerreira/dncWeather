@@ -1,0 +1,34 @@
+@use '../../sass/global' as *;
+
+
+.footer{
+    background-color: $blue;
+    color: white;
+    font-family: $font;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 100px;
+    height: 50px;
+
+    .footer__termos{
+        margin-right: 5px;
+    }
+    .footer__polit{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .footer__termos:hover{
+        cursor: pointer;
+        color: turquoise;
+        transform: translateY(-3px);
+        transition: 0.5s;
+    }
+    .footer__polit:hover{
+        cursor: pointer;
+        color: turquoise;
+        transform: translateY(-3px);
+        transition: 0.5s;
+    }
+}

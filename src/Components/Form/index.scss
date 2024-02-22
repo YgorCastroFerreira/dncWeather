@@ -1,0 +1,55 @@
+@use '../../sass/global' as *;
+
+.form{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #bababa;
+    margin-top: 150px;
+
+    .form__form{
+        background-color: white;
+        font-family: $font;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 50px 50px 0px 50px;
+        
+
+        input{
+            border: none;
+            background-color: #F2F2F2;
+            border-radius: 5px;
+            height: 30px;
+            width: 400px;
+            padding-left: 20px;
+        }
+
+        .form__gps{
+            width: 180px;
+            justify-content: center;
+            margin-right: 30px;
+        }
+
+        
+    }
+
+    .form__divbotao{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px 0px 50px 0px;
+    }
+    .form___botao{
+        background-color:#0C70F2;
+        color:white;
+        border: none;
+        font-size: 20px;
+        border-radius: 5px;
+        height: 35px;
+        width: 400px;
+    }
+}
